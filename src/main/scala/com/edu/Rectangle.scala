@@ -6,7 +6,8 @@ package com.edu
 class Rectangle {
   /**
    * calculateArea function returns area of rectangle
-   * @param length - length dimension
+   *
+   * @param length  - length dimension
    * @param breadth - breadth dimension
    * @return area of rectangle
    */
