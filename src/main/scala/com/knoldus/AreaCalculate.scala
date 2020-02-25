@@ -4,17 +4,16 @@ object Constants {
   val width = 4
   val height = 6
 }
+
 object AreaCalculate extends App {
   val square = new SquareShape
   val rectangle = new RectangleShape
 
-  val rectangleArea: Double = rectangle.calculateArea(Constants.width,Constants.height)
-  println(rectangleArea)
+  val rectangleArea: Double = rectangle.calculateArea(Constants.width, Constants.height)
 
   try {
-    val squareArea = square.calculateArea(Constants.width,Constants.height)
-    println(squareArea)
+    val squareArea: Double = square.calculateArea(Constants.width, Constants.height)
   } catch {
-    case ex: Exception => println(ex.getMessage)
+    case ex: Exception => ex.getMessage
   }
 }
