@@ -4,7 +4,7 @@ object Constants {
   val width = 4
   val height = 6
 }
-object MainCaller extends App {
+object AreaCalculate extends App {
   val square = new SquareShape
   val rectangle = new RectangleShape
 
